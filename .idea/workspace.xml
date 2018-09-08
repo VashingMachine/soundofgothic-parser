@@ -1,7 +1,623 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e83026f6-e183-4ee3-9b83-31995c6c7018" name="Default Changelist" comment="" />
+    <list default="true" id="e83026f6-e183-4ee3-9b83-31995c6c7018" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_Addon_GivePotion.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_Addon_Myxir_TeachRequest.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_Addon_Riordian_TeachWisp.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_AkilsSchaf_KommMit.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_Announce_Herold.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_AssignAmbientInfos.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_AssignAmbientInfos_Addon_BL_BDT_1.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_AssignAmbientInfos_Addon_BL_BDT_13.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_AssignAmbientInfos_Addon_PIR_6.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_AssignAmbientInfos_Addon_PIR_7.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_AssignAmbientInfos_Addon_Sklaven_3.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_AssignAmbientInfos_Addon_TAL_BDT_1.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_AssignAmbientInfos_Addon_TAL_BDT_13.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_AssignAmbientInfos_BAU_1.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_AssignAmbientInfos_BAU_13.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_AssignAmbientInfos_BAU_16.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_AssignAmbientInfos_BAU_7.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_AssignAmbientInfos_BDT_1.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_AssignAmbientInfos_BDT_13.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_AssignAmbientInfos_MIL_6.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_AssignAmbientInfos_MIL_7.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_AssignAmbientInfos_NOV_3.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_AssignAmbientInfos_NOV_8.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_AssignAmbientInfos_OUT_1.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_AssignAmbientInfos_OUT_13.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_AssignAmbientInfos_OUT_7.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_AssignAmbientInfos_OcPAL_4.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_AssignAmbientInfos_OcPAL_9.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_AssignAmbientInfos_OcVLK_1.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_AssignAmbientInfos_OcVLK_6.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_AssignAmbientInfos_OwPAL_4.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_AssignAmbientInfos_PAL_12.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_AssignAmbientInfos_PAL_4.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_AssignAmbientInfos_PAL_9.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_AssignAmbientInfos_SLD_6.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_AssignAmbientInfos_SLD_7.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_AssignAmbientInfos_STRF_1.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_AssignAmbientInfos_STRF_13.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_AssignAmbientInfos_VLK_1.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_AssignAmbientInfos_VLK_16.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_AssignAmbientInfos_VLK_17.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_AssignAmbientInfos_VLK_6.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_AssignAmbientInfos_VLK_8.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_AssignAmbientNews.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_AssignCityGuide.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_AssignDementorTalk.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_AssignDementorTalk_Ritual.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_AssignDragonTalk.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_AssignDragonTalk_Fire.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_AssignDragonTalk_Ice.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_AssignDragonTalk_Main.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_AssignDragonTalk_Rock.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_AssignDragonTalk_Swamp.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_AssignOrc_AntiPaladinTalk.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_AssignSchiffswachenTalk.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_AssignToughGuyNews.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_BDT_10xx_Fluechtling.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_Bartok_ShitAnOrc.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_DMT_RitualDementor.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_Dragon_Fire_Island.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_Dragon_Undead.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_Koch_Hackebeil.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_LastWarningVatras.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_Liesel.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_NpcObsessedByDMT.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_ORC_AntiPaladinX.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_PAL_SchiffswacheAmbient.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_Preach_Vatras.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_Urshak.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/B_Video.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_BAU_4300_Cavalorn.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_BDT_10004_Finn.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_BDT_10005_Wache_02.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_BDT_10008_Bandit.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_BDT_10014_Thorus.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_BDT_10015_Emilio.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_BDT_10017_Juan.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_BDT_10018_Torwache.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_BDT_10019_Wache.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_BDT_10022_Miguel.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_BDT_10023_Wache.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_BDT_10024_Garaz.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_BDT_10025_Wache.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_BDT_10026_Wache.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_BDT_10027_Buddler.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_BDT_10028_Buddler.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_BDT_10029_Buddler.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_BDT_10030_Buddler.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_BDT_10031_Wache.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_BDT_1064_L.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_BDT_1070_Paul.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_BDT_1071_Ramon.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_BDT_1072_Logan.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_BDT_1073_Sancho.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_BDT_1074_Edgor.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_BDT_1075_Fortuno.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_BDT_1079_Carlos.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_BDT_1080_Tom.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_BDT_1081_Wache_01.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_BDT_1082_Skinner.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_BDT_1083_Esteban.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_BDT_1084_Senyan.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_BDT_1085_Bloodwyn.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_BDT_1086_Scatty.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_BDT_1088_Torwache.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_BDT_1090_Raven.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_BDT_1091_Lucia.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_BDT_1092_Isabel.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_BDT_1093_Franco.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_BDT_1095_Crimson.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_BDT_1096_Lennar.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_BDT_1097_Fisk.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_BDT_1098_Snaf.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_BDT_1099_Huno.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_KDW_14000_Saturas_ADW.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_KDW_1400_Saturas_NW.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_KDW_14010_Cronos_ADW.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_KDW_1401_Cronos_NW.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_KDW_14020_Nefarius_ADW.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_KDW_1402_Nefarius_NW.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_KDW_140300_Myxir_City.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_KDW_14030_Myxir_ADW.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_KDW_1403_Myxir_NW.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_KDW_14040_Riordian_ADW.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_KDW_1404_Riordian_NW.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_KDW_14050_Merdarion_ADW.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_KDW_1405_Merdarion_NW.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_MIL_350_Martin.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_NONE_111_Quarhodron.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_NONE_112_Rhademes.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_NONE_115_Eremit.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_PIR_1300_Greg_NW.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_PIR_1301_Skip_NW.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_PIR_1320_Greg.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_PIR_1350_Francis.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_PIR_1351_Samuel.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_PIR_1352_AlligatorJack.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_PIR_1352_Morgan.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_PIR_1354_Henry.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_PIR_1355_Skip.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_PIR_1356_Bill.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_PIR_1357_Garett.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_PIR_1360_HammerPirate.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_PIR_1361_SawPirate.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_PIR_1362_Bones.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_PIR_1363_BenchPirate.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_PIR_1364_RoastPirate.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_PIR_1366_Brandon.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_PIR_1366_Matt.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_PIR_1367_Owen.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_PIR_1368_Malcom.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_PIR_1389_Tom.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_STRF_1118_Patrick.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_STRF_1119_Monty.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_STRF_1120_Tonak.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_STRF_1121_Telbor.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_STRF_1122_Pardos.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_STRF_1123_Patrick_NW.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_STRF_1124_Monty_NW.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_STRF_1125_Tonak_NW.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_STRF_1126_Pardos_NW.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_STRF_1126_Telbor_NW.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_VLK_4301_Farim.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_VLK_4302_Elvrich.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_VLK_4303_Erol.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Addon_WispDetector.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_BAU_900_Onar.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_BAU_902_Gunnar.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_BAU_903_Bodo.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_BAU_907_Wasili.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_BAU_908_Hodges.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_BAU_910_Maria.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_BAU_911_Elena.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_BAU_912_Pepe.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_BAU_913_Thekla.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_BAU_930_Sekob.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_BAU_931_Till.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_BAU_932_Balthasar.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_BAU_933_Rega.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_BAU_934_Babera.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_BAU_935_Bronko.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_BAU_936_Rosi.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_BAU_940_Akil.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_BAU_941_Kati.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_BAU_942_Randolph.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_BAU_944_Ehnim.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_BAU_945_Egill.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_BAU_950_Lobart.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_BAU_951_Hilda.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_BAU_952_Vino.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_BAU_954_Maleth.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_BAU_960_Bengar.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_BAU_961_Gaan.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_BAU_963_Malak.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_BAU_970_Orlan.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_BAU_973_Rukhar.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_BAU_980_Sagitta.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_BAU_981_Grom.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_BAU_982_Grimbald.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_BAU_983_Dragomir.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_BAU_984_Niclas.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_BDT_1013_Bandit_L.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_BDT_1014_Bandit_L.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_BDT_1015_Bandit_L.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_BDT_1020_Wegelagerer.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_BDT_1025_Bandit_H.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_BDT_1030_Morgahard.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_BDT_1050_Landstreicher.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_BDT_1051_Wegelagerer.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_BDT_1052_Wegelagerer.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_BDT_1060_Dexter.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_BDT_1061_Wache.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Bau_900_Ricelord.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Bau_901_Horatio.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Bau_902_Pock.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Bau_903_Rufus.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Bau_912_Jeremiah.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Bau_935_Homer.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_DJG_700_Sylvio.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_DJG_701_Bullco.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_DJG_702_Rod.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_DJG_703_Cipher.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_DJG_705_Angar.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_DJG_705_Angar_DI.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_DJG_705_Angar_NW.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_DJG_708_Kurgan.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_DJG_709_Rethon.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_DJG_710_Kjorn.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_DJG_711_Godar.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_DJG_712_Hokurn.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_DJG_713_Biff.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_DJG_713_Biff_DI.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_DJG_713_Biff_NW.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_DJG_714_Jan.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_DJG_715_Ferros.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_DMT_1200_Dementor.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_DMT_1299_OberDementor_DI.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_EBR_100_Gomez.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_EBR_101_Scar.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_EBR_102_Arto.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_EBR_105_Raven.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_EBR_106_Bartholo.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_EXTRO_AVI.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_FH.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_GRD_203_Bullit.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_GRD_205_Scorpio.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_GRD_208_Cutter.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_GRD_210_Scatty.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_GRD_211_Skip.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_GRD_216_Torwache.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_GRD_217_Torwache.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_GRD_219_Stone.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_GRD_233_Bloodwyn.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_GRD_251_Kirgo.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_GRD_254_Orry.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_GRD_261_Brandick.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_GUR_1200_YBerion.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_GUR_1201_CorKalom.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_GUR_1202_CorAngar.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_GUR_1204_BaalNamib.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_GUR_1211_BaalLukor.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_GUR_1212_MadCorKalom.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Grd_200_Thorus.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Grd_201_Jackal.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Grd_212_GuardPassage.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Grd_213_GuardPassage.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Grd_214_Torwache.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Grd_215_Torwache.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Grd_218_GuardPassage.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Grd_224_Pacho.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Grd_237_GuardPassage.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Grd_245_GuardPassage.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Grd_255_Fletcher.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Grd_260_Drake.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Grd_262_Aaron.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Grd_263_Asghan.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Grd_264_Gardist.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Grd_271_Ulbert.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Grd_275_Brueckenwache.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Grd_276_Brueckenwache.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Grd_277_Orkwache.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Grd_281_Gardist.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Gur_1203_BaalTondral.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Gur_1208_BaalCadar.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Gur_1209_BaalOrun.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Gur_1210_BaaTyon.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_IE_397_Announcer.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_KDF_400_Rodriguez.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_KDF_401_Damarok.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_KDF_402_Corristo.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_KDF_403_Drago.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_KDF_405_Torrez.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_KDF_500_Pyrokar.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_KDF_501_Serpentes.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_KDF_502_Ulthar.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_KDF_503_Karras.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_KDF_504_Parlan.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_KDF_505_Marduk.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_KDF_506_Neoras.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_KDF_507_Talamon.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_KDF_508_Gorax.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_KDF_509_Isgaroth.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_KDF_510_Hyglas.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_KDF_511_Daron.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Kdf_404_Xardas.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Kdf_406_XardasOT.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Kdw_600_Saturas.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Kdw_601_Myxir.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Kdw_602_Merdarion.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Kdw_603_Nefarius.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Kdw_604_Cronos.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Kdw_605_Riordian.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_MIL_304_Torwache.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_MIL_305_Torwache.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_MIL_309_Stadtwache.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_MIL_310_Stadtwache.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_MIL_311_Andre.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_MIL_312_Wulfgar.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_MIL_313_Boltan.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_MIL_314_Mortis.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_MIL_316_Wambo.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_MIL_317_Ruga.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_MIL_319_Pablo.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_MIL_321_Rangar.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_MIL_324_Peck.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_MIL_325_Stadtwache.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_MIL_328_Miliz.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_MIL_332_Stadtwache.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_MIL_333_Stadtwache.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_MIL_335_Rumbold.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_MIL_336_Rick.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_MIL_337_Mika.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_NONE_100_Xardas.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_NONE_101_Mario.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_NONE_101_Mario_DI.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_NOV_1301_Caine.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_NOV_1356_Shrat.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_NOV_600_Pedro.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_NOV_600_Pedro_DI.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_NOV_601_Igaraz.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_NOV_602_Ulf.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_NOV_603_Agon.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_NOV_604_Dyrian.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_NOV_605_Opolos.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_NOV_608_Garwig.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_NOV_612_Babo.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Non_1500_Gilbert.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Nov_1300_Talas.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Nov_1302_Viran.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Nov_1303_Nyras.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Nov_1304_Balor.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Nov_1305_Joru.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Nov_1310_Ghorim.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Nov_1312_Darrion.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Nov_1319_Novize.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Nov_1320_Novize.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Nov_1330_BaalParvez.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Nov_1331_BaaTaran.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Nov_1332_BaalKagan.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Nov_1333_BaalIsidro.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Nov_1357_Fortuno.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Nov_1358_Harlok.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Nov_1371_BaalNetbek.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_ORC_Freemine.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_ORC_HighPriest1.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_ORC_HighPriest2.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_ORC_HighPriest3.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_ORC_HighPriest4.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_ORC_HighPriest5.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_ORC_Shaman.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_ORG_833_Buster.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_ORG_840_Roscoe.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_ORG_855_Wolf.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_ORG_860_Renyu.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_ORG_861_Killian.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_ORG_862_Jacko.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Org_801_Lares.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Org_804_Organisator.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Org_818_Ratford.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Org_819_Drax.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Org_825_Organisator.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Org_826_Mordrag.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Org_829_Organisator.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Org_830_Organisator.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Org_841_Silas.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Org_842_Shrike.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Org_843_Sharky.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Org_844_Lefty.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Org_845_Schlaeger.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Org_846_Schlaeger.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Org_850_Wedge.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Org_851_Butch.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Org_859_Aidan.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Org_873_Cipher.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Org_875_Tuersteher.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Org_876_Tuersteher.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Org_888_Erpresser.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_PAL_200_Hagen.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_PAL_201_Ingmar.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_PAL_202_Albrecht.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_PAL_203_Lothar.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_PAL_205_Torwache.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_PAL_207_Girion.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_PAL_207_Girion_DI.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_PAL_212_Schiffswache.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_PAL_213_Schiffswache.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_PAL_216_Cedric.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_PAL_217_Marcos.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_PAL_250_Garond.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_PAL_251_Oric.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_PAL_252_Parcival.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_PAL_258_Keroloth.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_PAL_260_Tandor.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_PAL_261_Gerold.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_PAL_262_Wache.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_PAL_263_Wache.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_PAL_267_Sengrath.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_PAL_268_Udar.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_PAL_269_Ritter.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_PAL_270_Ritter.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_PAL_280_Tengron.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_PAL_281_Fajeth.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_PAL_297_Ritter.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_PAL_298_Ritter.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_PAL_299_Sergio.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_PC_Fighter.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_PC_FighterFM.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_PC_Fighter_DI.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_PC_Fighter_DJG.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_PC_Fighter_NW.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_PC_Fighter_NW_Nach_DJG.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_PC_Fighter_OW.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_PC_Mage_DI.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_PC_Mage_NW.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_PC_Mage_OW.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_PC_Psionic.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_PC_Psionic_DI.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_PC_Thief_DI.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_PC_Thief_NW.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_PC_Thief_OW.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Pc_Mage.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Pc_Thief.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_SLD_709_Cord.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_SLD_800_Lee.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_SLD_800_Lee_DI.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_SLD_801_Torlof.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_SLD_801_Torlof_DI.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_SLD_802_Buster.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_SLD_803_Cipher.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_SLD_804_Rod.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_SLD_805_Cord.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_SLD_806_Sylvio.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_SLD_807_Bullco.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_SLD_808_Jarvis.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_SLD_809_Bennet.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_SLD_809_Bennet_DI.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_SLD_810_Dar.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_SLD_811_Wolf.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_SLD_811_Wolf_DI.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_SLD_814_Sentenza.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_SLD_816_Fester.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_SLD_820_Soeldner.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_SLD_822_Raoul.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_SLD_823_Khaled.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_SLD_840_Alvares.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_SLD_841_Engardo.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_STRF_1101_Draal.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_STRF_1106_Fed.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_STRF_1107_Straefling.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_STRF_1115_Geppert.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_STRF_1116_Kervo.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_STT_315_Sly.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_STT_331_Fingers.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_SfB_1000_Senyan.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_SfB_1001_Schuerfer.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_SfB_1037_Swiney.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Sld_700_Lee.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Sld_701_Orik.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Sld_702_Soeldner.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Sld_723_GuardPassage.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Sld_728_Jarvis.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Sld_729_Kharim.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Sld_732_GuardPassage.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Sld_737_Torlof.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Sld_751_Soeldner.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Sld_752_Okyl.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Sld_753_Baloro.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Sld_760_Soeldner.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Sld_761_Soeldner.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Stt_300_Alberto.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Stt_301_Ian.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Stt_302_Viper.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Stt_309_Whistler.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Stt_311_Fisk.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Stt_329_Dexter.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Stt_335_Santino.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Stt_336_Cavalorn.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_TPL_1402_GorNaToth.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_TPL_1405_GorNaRan.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_TPL_1422_GorHanis.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_TPL_1439_GorNaDrak.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_TPL_1455_GorBoba.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Tpl_1400_GorNaBar.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Tpl_1401_GorNaKosh.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Tpl_1406_Templer.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Tpl_1415_Torwache.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Tpl_1416_Torwache.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Tpl_1430_Templer.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Tpl_1431_Templer.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Tpl_1433_GorNaVid.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Tpl_1436_Templer.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Tpl_1437_Templer.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Tpl_1438_Templer.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Tpl_1441_GuardPassage.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Tpl_1442_GuardPassage.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_400_Larius.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_401_Cornelius.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_402_Richter.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_403_Gerbrandt.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_404_Lutero.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_405_Fernando.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_406_Herold.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_407_Hakon.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_408_Jora.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_409_Zuris.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_4100_Brutus.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_4106_Dobar.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_4107_Parlaf.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_4108_Engor.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_410_Baltram.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_4110_Jergan.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_4111_Grimes.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_411_Gaertner.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_4120_Bilgot.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_412_Harad.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_4130_Talbin.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_4130_Talbin_NW.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_4131_Engrom.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_413_Bosper.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_4143_HaupttorWache.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_4148_Gestath.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_414_Hanna.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_415_Meldor.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_416_Matteo.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_417_Constantino.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_418_Gritta.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_4201_Wirt.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_420_Coragon.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_421_Valentino.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_422_Salandril.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_424_Alwin.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_4250_Jorgen.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_4250_Jorgen_DI.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_425_Regis.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_431_Kardif.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_432_Moe.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_433_Bromor.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_434_Borka.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_435_Nadja.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_436_Sonja.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_437_Brahim.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_438_Alrik.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_439_Vatras.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_439_Vatras_DI.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_440_Bartok.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_441_Garvell.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_444_Jack.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_444_Jack_DI.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_445_Ramirez.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_446_Jesper.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_447_Cassia.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_448_Joe.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_449_Lares.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_449_Lares_DI.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_456_Abuyin.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_457_Brian.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_458_Rupert.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_461_Carl.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_462_Thorben.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_466_Gernod.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_468_Canthar.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_469_Halvor.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_470_Sarah.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_471_Edda.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_476_Fenia.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_480_Fellan.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_484_Lehmar.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_491_Vanja.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_492_Rengaru.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_493_Nagur.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_494_Attila.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_VLK_498_Ignaz.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Vlk_511_Herek.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Vlk_520_Buddler.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Vlk_524_Dusty.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Vlk_530_Guy.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Vlk_534_Buddler.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Vlk_536_Kyle.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Vlk_538_Huno.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Vlk_564_Jesse.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Vlk_572_Gravo.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Vlk_573_Graham.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Vlk_574_Mud.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Vlk_580_Grim.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Vlk_581_Snaf.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Vlk_582_Melvin.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Vlk_583_Glen.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Vlk_584_Snipes.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Vlk_585_Aleph.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Vlk_586_Grimes.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_Vlk_587_Garp.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/DIA_XardasDemon.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound_text.json" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,29 +632,30 @@
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="858" />
+          <entry key="py" value="1234" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="858" />
+          <entry key="Python" value="1234" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="d" value="2" />
-          <entry key="json" value="2" />
+          <entry key="json" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="D file" value="1" />
-          <entry key="JSON" value="2" />
+          <entry key="JSON" value="3" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -49,8 +666,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/parser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="51" lean-forward="true" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+            <state relative-caret-position="102">
+              <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -61,8 +678,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sound_text.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret column="99208" selection-start-column="99199" selection-end-column="99208" />
+            <state relative-caret-position="154">
+              <caret column="105609" lean-forward="true" selection-start-column="105609" selection-end-column="105609" />
             </state>
           </provider>
         </entry>
@@ -116,6 +733,11 @@
             <path>
               <item name="app" type="b2602c69:ProjectViewProjectNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -182,19 +804,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17913593" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.46203905" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.46203905" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -220,15 +843,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sound_text.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret column="99208" selection-start-column="99199" selection-end-column="99208" />
+        <state relative-caret-position="154">
+          <caret column="105609" lean-forward="true" selection-start-column="105609" selection-end-column="105609" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/parser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="51" lean-forward="true" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+        <state relative-caret-position="102">
+          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
