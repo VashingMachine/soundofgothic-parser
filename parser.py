@@ -2,6 +2,7 @@ import os
 import re
 import json
 scripts_dirs = ["scripts/gothic_1", "scripts/gothic_2"]
+scripts_special_dir = "scripts/special";
 scripts_sets = [os.listdir(d) for d in scripts_dirs]
 scripts_labels = ["1", "2"]
 assigments = []
@@ -21,6 +22,26 @@ for i, scripts in enumerate(scripts_sets):
                         "g": scripts_labels[i],
                         "source": file.name.split("/")[-1][:-2]
                     })
+
+# file that must have special treatment
+with open(scripts_special_dir + "/SVM.d") as file:
+    print("parsing SVM.d")
+    for line in file:
+        line = line.strip()
+        line_parts = line.split("=")
+        if len(line_parts) > 1:
+            test = line_parts[1].strip()
+            if test.startswith("\"SVM"):
+                assigment_part = test[1:].split("//")
+                filename = assigment_part[0][:-1].strip()[:-1]
+                text = assigment_part[1]
+                assigments.append({
+                    "filename": filename,
+                    "text": text,
+                    "g": "2",
+                    "source": "SVM.d"
+                })
+
 
 with open("sound_text.json", "w", encoding="utf-8") as file:
     json.dump(assigments, file, ensure_ascii=False)
