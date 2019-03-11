@@ -42,9 +42,34 @@ with open(scripts_special_dir + "/SVM.d") as file:
                     "source": "SVM.d"
                 })
 
+updateAssigments = []
+with open(scripts_special_dir + "/svm_1.d") as file:
+    print("parsing SVM.d")
+    for line in file:
+        line = line.strip()
+        line_parts = line.split("=")
+        if len(line_parts) > 1:
+            test = line_parts[1].strip()
+            if test.startswith("\"SVM"):
+                assigment_part = test[1:].split("//")
+                filename = assigment_part[0][:-1].strip()[:-1]
+                text = assigment_part[1]
+                updateAssigments.append({
+                    "filename": filename,
+                    "text": text,
+                    "g": "1",
+                    "source": "SVM.d"
+                })
+                assigments.append({
+                    "filename": filename,
+                    "text": text,
+                    "g": "1",
+                    "source": "SVM.d"
+                })
+
 
 with open("sound_text.json", "w", encoding="utf-8") as file:
     json.dump(assigments, file, ensure_ascii=False)
-    print("success")
-
-
+with open("update_sound_text_1.json", "w", encoding="utf-8") as file:
+    json.dump(updateAssigments, file, ensure_ascii=False)
+print("success")

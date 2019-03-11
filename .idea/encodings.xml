@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/scripts/DIA_Addon_BAU_4300_Cavalorn.d" charset="windows-1250" />
-    <file url="file://$PROJECT_DIR$/scripts/DIA_VLK_4100_Brutus.d" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/scripts/special/SVM.d" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/scripts/special/svm_1.d" charset="windows-1250" />
     <file url="file://$PROJECT_DIR$/sound_text.json" charset="UTF-8" />
   </component>
 </project>
