@@ -34,6 +34,9 @@ with open(scripts_special_dir + "/SVM.d") as file:
             if test.startswith("\"SVM"):
                 assigment_part = test[1:].split("//")
                 filename = assigment_part[0][:-1].strip()[:-1]
+                if filename[len(filename) - 1] == '"':
+                    filename = filename[:-1]
+                print(filename)
                 text = assigment_part[1]
                 assigments.append({
                     "filename": filename,
