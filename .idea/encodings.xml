@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/PrjGothic/Story/B/B_CheckDeadMissionNPCs.d" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/PrjGothic/Story/B/Info_Bau_2_EXIT.d" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/PrjGothic/Story/B/Info_Bau_9_EXIT.d" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/PrjGothic/Story/B/Info_FindNPC_ST.d" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/PrjGothic/Story/B/Info_Mine_Grd_7_EXIT.d" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/PrjGothic/Story/NPC/Bau_940_Riddler.d" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/PrjGothic/Story/Text.d" charset="windows-1250" />
     <file url="file://$PROJECT_DIR$/scripts/special/SVM.d" charset="windows-1250" />
     <file url="file://$PROJECT_DIR$/scripts/special/svm_1.d" charset="windows-1250" />
     <file url="file://$PROJECT_DIR$/sound_text.json" charset="UTF-8" />
